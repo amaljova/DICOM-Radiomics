@@ -1,7 +1,7 @@
 # DICOM-RADIOMICS
 
 * @ Created: 27 January 2022
-* @ Last modified:
+* @ Last modified: 04 December 2022
 * @ author: Amal Joseph Varghese
 * @ email: amaljova@gmail.com
 * @ github: https://github.com/amaljova
