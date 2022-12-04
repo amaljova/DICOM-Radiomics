@@ -7,6 +7,8 @@
 * @ last modified: 21 July 2022
 
 This script reads all DICOM files in a directory/ directories and collects their metadata into .csv and  .pkl files.
+Edit the final part before you run.
+
 
 This scripts deals with RTSTRUCT and CT modalities.
 Edit to include MR or PET or even to find patients of interest.

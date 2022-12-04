@@ -1,10 +1,5 @@
-pydicom
 pyradiomics
-SimpleITK
-scikit-image
 regex
-numpy
-pandas
 
 
 numpy>=1.9.2

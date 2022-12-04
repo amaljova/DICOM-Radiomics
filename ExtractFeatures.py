@@ -5,9 +5,15 @@
 @ email: amaljova@gmail.com
 @ github: https://github.com/amaljova
 
+# To extract radiomics features from a folder of DICOM images.
+# Edit the last part of the script to inclue
+    - the path to tartget directory
+    - the ROI of interest
+    - the loaction where you want your results to be saved.
 
+This Script contains snippets from https://github.com/zhenweishi/O-RAW (The Class DicomDatabase)
+and https://github.com/zhenweishi/Py-rex
 
-This Script contains snippets from https://github.com/zhenweishi/O-RAW (The Class DicomDatabase) and https://github.com/zhenweishi/Py-rex
 """
 
 import radiomics
@@ -407,6 +413,11 @@ def execute(data_dir, roi, parameter_list,outDir,data_name):
         out_name = os.path.join(outDir, f'{data_name}_{((param.split("/")[-1]).split(".")[0])}_Out.csv')
         extractFeatures(dicomDb, roi, param, out_name)
 
+
+
+# ---------------------------------------------------------------------------------------
+
+# Edit here
 
 if __name__ == "__main__":
 
