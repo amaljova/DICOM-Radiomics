@@ -11,7 +11,7 @@ import pandas as pd
 @ github: https://github.com/amaljova
 
 
-This script copies DICOM data to a newly created, properly arrange folder.
+This script copies DICOM data to a newly created, properly arranged folder.
 Run CollectMetaData.py and generate the required metadata csv file before running it.
 
 """
