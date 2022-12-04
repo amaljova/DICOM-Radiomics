@@ -23,7 +23,8 @@ def makeFolders(dir_name):
         os.makedirs(dir_name)
 
 def getpath(x):
-    return x.split("\\")[-1]
+    return x.split("\\")[-1] # only for windows
+    # return x.split("/")[-1] # uncomment for Linux or MacOS
 
 def copyFiles(metadata_file,dest_dir):
     datasheet = pd.read_csv(metadata_file)
